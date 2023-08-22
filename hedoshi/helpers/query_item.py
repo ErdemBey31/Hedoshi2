@@ -1,10 +1,10 @@
-# Copyright (C) 2023 frknkrc44 <https://gitlab.com/frknkrc44>
+# Telif Hakkı (C) 2023 frknkrc44 <https://gitlab.com/frknkrc44>
 #
-# This file is part of HedoshiMusicBot project,
-# and licensed under GNU Affero General Public License v3.
-# See the GNU Affero General Public License for more details.
+# Bu dosya HedoshiMusicBot projesinin bir parçasıdır
+# ve GNU Affero Genel Kamu Lisansı v3 altında lisanslanmıştır.
+# Daha fazla ayrıntı için GNU Affero Genel Kamu Lisansı'na bakın.
 #
-# All rights reserved. See COPYING, AUTHORS.
+# Tüm hakları saklıdır. COPYING, AUTHORS dosyalarına bakın.
 #
 
 from pytgcalls.types import AudioPiped, AudioVideoPiped
