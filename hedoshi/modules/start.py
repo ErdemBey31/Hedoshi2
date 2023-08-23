@@ -10,7 +10,8 @@
 from pyrogram.types import Message
 from ..helpers.telegram.cmd_register import register
 from time import time
-
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram import CallbackQuery
 @register('start', private=True)
 async def start(message: Message):
     buttons = [[
