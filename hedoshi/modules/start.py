@@ -6,12 +6,13 @@
 #
 # All rights reserved. See COPYING, AUTHORS.
 #
-
+from pyrogram import Client
+from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram import CallbackQuery
 from pyrogram.types import Message
 from ..helpers.telegram.cmd_register import register
 from time import time
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from pyrogram import CallbackQuery
+
 @register('start', private=True)
 async def start(message: Message):
     buttons = [[
