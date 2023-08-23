@@ -8,7 +8,7 @@ buttons = [[
 ]
 
 await message.reply_text(
-    "Merhaba, Müzik Bot'a hoş geldiniz!",
+    "__Merhaba, Müzik Botuna hoş geldiniz! Komutlarım aşağıdaki butondan görülebilir.__",
     reply_markup=InlineKeyboardMarkup(buttons)
 )
 ```
@@ -18,16 +18,23 @@ async def show_commands(call: CallbackQuery):
 
 ```
 await call.message.edit_text(    """
-    Komutlar:
+   ** KOMUTLAR:**
     
-    /play - Müzik oynat
-    /vplay - Video oynat
-    ...
-    
-    Geri dönmek için 'Geri' butonuna basın
+    **/play - Müzik oynatır, bir dosyaya yanıt veya bir müzik adı**
+    **/vplay - Videolu oynat **
+   ** /end - Bitir**
+   ** /skip - Sonraki müziğe geç**
+   ** /seek - Buraya yazılan saniye kadar ileri sarar**
+   ** /ping - pingi ölçmek**
+   ** /pause - durdur**
+  **  /resume - devam et**
+  **  /loop - döngü**
+   ** /leave - sesliden ayrıl**
+   ** /query - Oynatılan müziği göster(Not: ismin sonunda ki -a şarkı -v video demektir)**
+   ** GÜNCELLEME KANALINA KATIL @ruyamuzikguncelleme**
     """,
     reply_markup=InlineKeyboardMarkup([[
-        InlineKeyboardButton("Geri", callback_data="back_to_start") 
+        InlineKeyboardButton("Geri 🔙", callback_data="back_to_start") 
     ]])
 ```
 
