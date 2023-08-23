@@ -15,5 +15,5 @@ from time import time
 @register('start|baslat|alive', private=True, owner=True)
 async def ping(message: Message) -> None:    
     await message.reply_text('''**Merhaba sayın yöneticim❤️, **\n\n__Şuan da aktif olarak çalışıyorum__''')
-''')
+
     
