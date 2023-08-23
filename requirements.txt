@@ -1,7 +1,7 @@
 gitpython
 heroku3
 pyrogram
-pytgcalls==3.0.0.dev6
+git+https://github.com/pytgcalls/pytgcalls@master
 python-dotenv
 requests
 tgcrypto
