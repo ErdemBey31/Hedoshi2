@@ -1,7 +1,7 @@
 @register('start', private=True)
 async def start(message: Message):
 
-```
+
 buttons = [[
     InlineKeyboardButton("Komutları Göster", callback_data="show_commands") 
 ],
@@ -11,12 +11,12 @@ await message.reply_text(
     "__Merhaba, Müzik Botuna hoş geldiniz! Komutlarım aşağıdaki butondan görülebilir.__",
     reply_markup=InlineKeyboardMarkup(buttons)
 )
-```
+
 
 @callback_query_handler(func=lambda call: call.data == "show_commands")
 async def show_commands(call: CallbackQuery):
 
-```
+
 await call.message.edit_text(    """
    ** KOMUTLAR:**
     
@@ -36,7 +36,7 @@ await call.message.edit_text(    """
     reply_markup=InlineKeyboardMarkup([[
         InlineKeyboardButton("Geri 🔙", callback_data="back_to_start") 
     ]])
-```
+
 
 )
 
