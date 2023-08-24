@@ -6,8 +6,9 @@
 #
 # All rights reserved. See COPYING, AUTHORS.
 
+from pyrogram.types import Message
 from ..helpers.telegram.cmd_register import register
-
+from time import time
 @register('start', private=True)
 async def start(message: Message):
     message.reply_photo("https://telegra.ph/file/dd3b29610f7d702500f9d.jpg", caption="""
