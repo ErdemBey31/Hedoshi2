@@ -11,7 +11,7 @@ from ..helpers.telegram.cmd_register import register
 from time import time
 @register('start', private=True)
 async def start(message: Message):
-    message.reply_photo("https://telegra.ph/file/dd3b29610f7d702500f9d.jpg", caption="""
+    await message.reply_photo("https://telegra.ph/file/dd3b29610f7d702500f9d.jpg", caption="""
         ** KOMUTLAR:**
 
         ** /play - Müzik oynatır, bir dosyaya yanıt veya bir müzik adı**
