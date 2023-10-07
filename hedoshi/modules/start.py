@@ -25,4 +25,4 @@ async def start(message: Message):
         ** /loop - döngü**
         ** /leave - sesliden ayrıl**
         ** /query - Oynatılan müziği göster(Not: ismin sonunda ki -a şarkı -v video demektir)**
-        ** GÜNCELLEME KANALINA KATIL @onlinemzkupdates**""")
+        ** GÜNCELLEME KANALINA KATIL @username**""")
