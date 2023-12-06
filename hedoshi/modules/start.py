@@ -18,11 +18,11 @@ async def start(message: Message):
         ** /vplay - Videolu oynat **
         ** /end - Bitir**
         ** /skip - Sonraki müziğe geç**
-        ** /seek-[ileri,geri] - Buraya yazılan saniye kadar ileri sarar**
+        ** /seek-[ileri,geri] - Buraya yazılan saniye kadar ileri, geri sarar**
         ** /ping - pingi ölçmek**
         ** /pause - durdur**
         ** /resume - devam et**
-        ** /loop - döngü**
+        ** /loop - tekrarla**
         ** /leave - sesliden ayrıl**
         ** /query - Oynatılan müziği göster(Not: ismin sonunda ki -a şarkı -v video demektir)**
-        ** GÜNCELLEME KANALINA KATIL @username**""")
+        ** GÜNCELLEME KANALINA KATIL**""")
