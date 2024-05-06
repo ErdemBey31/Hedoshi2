@@ -19,7 +19,7 @@ async def start(message: Message):
         ** /end - Bitir**
         ** /skip - Sonraki müziğe geç**
         ** /seek-[ileri,geri] - Buraya yazılan saniye kadar ileri, geri sarar**
-        ** /ping - pingi ölçmek**
+        ** /ping - ping**
         ** /pause - durdur**
         ** /resume - devam et**
         ** /loop - tekrarla**
