@@ -7,7 +7,7 @@
 # Tüm hakları saklıdır. COPYING, AUTHORS dosyalarına bakın.
 #
 
-from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
+from pytgcalls.types import AudioPiped, AudioVideoPiped
 from json import dumps
 from os import sep
 from typing import Optional
